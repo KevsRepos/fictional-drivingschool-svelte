@@ -1,0 +1,67 @@
+/* red-hat-display-regular - latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/red-hat-display-v4-latin/red-hat-display-v4-latin-regular.svg#RedHatDisplay') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "color-emoji";
+  src: local("Apple Color Emoji"),
+       local("Segoe UI Emoji"), 
+       local("Segoe UI Symbol"),
+       local("Noto Color Emoji");
+}
+
+:root {
+  --brandingColor: #FF6978;
+  --white: #FFFCF9;
+  --black: #232323;
+  --mainFont: 'Red Hat Display', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --mainPadding: 15px;
+  --mainBorderRadius: 10px;
+  --mainBoxShadow: 0px 3px 15px rgba(0, 0, 0, 0.35);
+  --hoverBoxShadow: 3px 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: var(--mainFont);
+  color: var(--white);
+  background-color: #25252B;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.625rem;
+  text-align: center;
+  font-family: var(--headingFont);
+  margin: 50px;
+  color: var(--white);
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: var(--headingFont);
+  font-size: 2.063rem;
+  word-wrap: break-word;
+}
+
+h3 {
+  font-size: 1.625rem;
+}
